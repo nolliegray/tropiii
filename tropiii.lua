@@ -391,11 +391,13 @@ local function hw_redraw()
         grid_led(1, y, br)
       end
 
-      local scaled = (mod_val / 127) * 7
+      local norm = mod_val / 127
+      local scaled = norm * 6
+      local bar_br = norm * 15
       for y = 2, 8 do
         local row_idx = 8 - y
-        local fill = clamp(scaled - row_idx, 0, 1)
-        local br = flr(1 + fill * 14 + 0.5)
+        local fill = clamp(scaled - row_idx + 1, 0, 1)
+        local br = flr(fill * bar_br + 0.5)
         grid_led(2, y, br)
       end
     end
@@ -408,7 +410,7 @@ local function hw_redraw()
           local n_mod = n % 12
           if not BLACK_KEYS[n_mod] then
             local is_root = (n_mod == root_note)
-            grid_led(x, y, is_root and 12 or 4)
+            grid_led(x, y, is_root and 8 or 2)
           elseif n_mod == root_note then
             grid_led(x, y, 2)
           end
