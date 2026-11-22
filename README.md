@@ -68,7 +68,8 @@ This button toggles the root and scale page to change the current settings of th
 These buttons select the root note of the scale. They are laid out like a small piano keyboard. The keys will be lit or off depending on if they are part of the selected scale with the root note lit brightly.
 
 **[M] Scale**  
-These buttons select the scale or mode that make up the notes on the isometric keyboard. They work together with the root note to determine the available notes. The text display shows an abbreviation of each scale:  
+These buttons select the scale or mode that make up the notes on the isometric keyboard. They work together with the root note to determine the available notes. The text display shows an abbreviation of each scale:
+
 | Display | Scale/Mode | 
 | :--- | :--- | 
 | CHRM | Chromatic |
