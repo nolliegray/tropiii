@@ -13,7 +13,7 @@ Tropiii was designed to have all the needed items for play on the main interface
 
 On the main view, there is a sustain button and seven levels of velocity output easily within reach.
 
-By default, tropiii shows all the chromatic scale notes starting at C4 on the bottom left note. The notes take up the entirety of the bottom seven rows of the grid.
+By default, tropiii shows all the chromatic scale notes starting at C3 on the bottom left note, giving almost three octaves of range. The notes take up the entirety of the bottom seven rows of the grid.
 ![Overview](img/tropiii_Overview.png)
 
 ## Keyboard - Sustain & Octave
@@ -27,7 +27,7 @@ The sustain button can be held down temporarily to sustain notes. It sends a val
 These buttons shift the keyboard up or down by one octave. The keyboard can be shifted up to 3 octaves in either direction to extend past a typical 88 key piano.
 
 _Shortcut:_  
-Pressing both **[C]** octave buttons simultaneously will return the keyboard to the default position with middle c in the center.
+Pressing both **[C]** octave buttons simultaneously will return the keyboard to the default position with C3 (or chosen root note) in the bottom left corner.
 ![Keyboard Sustain Octave](img/tropiii_Keyboard-Oct.png)
 
 ## Keyboard - Velocity
