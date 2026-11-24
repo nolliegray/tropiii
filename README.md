@@ -3,7 +3,7 @@ An isometric keyboard for Monome Grid using iii
 
 Current Version 1.0.0
 
-![tropiii 2.0 demo](img/tropiii_1.0_thumbnail.jpg)
+![tropiii 1.0 thumbnail](img/tropiii_1.0_thumbnail.jpg)
 
 
 ## Overview
